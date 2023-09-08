@@ -89,7 +89,7 @@ const Slide = () => {
                 </p>
             </div>
             <div
-                className={`flex justify-center text-[50px] font-bold mb-7 ${kufam.className}
+                className={`flex justify-center text-[50px] font-bold mb-[90px] ${kufam.className}
                     before:absolute before:w-[0px] before:h-[2px] before:bg-blue-500 transition duration-700 delay-100 ${styles.title}`}>
                 نتشرف دائما بخدمة عملائنا
             </div>
@@ -107,7 +107,7 @@ const Slide = () => {
                             <div
                                 key={item.id}
                                 className={`transform -translate-x-[500px] opacity-0
-                        transition duration-[0.6s] delay-[0.4s]`}
+                        transition duration-[0.6s] delay-[1s]`}
                                 style={{
                                     transform: inView ? "translateX(0px)" : "",
                                     opacity: inView ? 1 : 0,
